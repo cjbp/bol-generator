@@ -12,7 +12,7 @@ The following document outlines the installation and configuration instructions 
 ## Installation & Configuration
 
 ## Installing the .Net Libraries
-Extract the bol\_1.0.2.zip archive to location of your choice. (i.e., C:\BluePrism)
+Extract the bol\_1.X.X.zip archive to location of your choice. (i.e., C:\BluePrism)
 
 Move the following .Net Library files from your chosen location into the Blue Prism working directory
 
