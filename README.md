@@ -63,7 +63,6 @@ The following variables can be configured in the BOL Generation process itself o
 | **3** | Export Directory | The directory that process xml files will be exported to out of the targeted database and stored for use as input to the BOL generation tool. | C:\BluePrism\BOL\input |
 | **4** | Output Directory | The output directory which the BOL generation tool will output the generated html BOL documents. | C:\BluePrism\BOL\output |
 | **5** | Program Name | The name you want displayed on the BOL generated documents. |
- |
 | **6** | Blue Prism Credentials | This is the Blue Prism credentials that will be used by the AutomatC.exe threads to access the database connection and list and export the processes to the Export Directory. | Blue Prism BOL |
 
 Running the tool
@@ -133,85 +132,24 @@ Some objects and process xml code will be exported by AutomateC.exe but may not 
 ## BOL Generation Tool Dependencies:
 
 ## .Net Framework
-[Download .NET Framework 4.6 | Free official downloads (microsoft.com)](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net46)
+[Download .NET Framework 4.X or Higher | Free official downloads (microsoft.com)](https://dotnet.microsoft.com/en-us/download/dotnet-framework)
 
 ## Custom .NET Libraries:
 - BOL.dll
   - Custom built .Net library that contains the functions for the BOL generator.
-  - Targeted and compiled against .Net Framework 4.6
+  - Targeted and compiled against .Net Framework v4.8 for v4.0 Runtime or higher
 
 ## Open-Source .NET Libraries:
-- dll
-  - licensed under the MIT license.
   - [https://www.nuget.org/packages/Handlebars.Net#dependencies-body-tab](https://www.nuget.org/packages/Handlebars.Net#dependencies-body-tab)
   - [https://github.com/Handlebars-Net/Handlebars.Net](https://github.com/Handlebars-Net/Handlebars.Net)
 
 ## Open Source JavaScript Libraries:
 
-/\*! DataTables 1.12.1
-\* ©2008-2022 SpryMedia Ltd - datatables.net/license
-\*/
-/\*\*
-\* @summary DataTables
-\* @description Paginate, search and order HTML tables
-\* @version 1.12.1
-\* @author SpryMedia Ltd
-\* @contact www.datatables.net
-\* @copyright SpryMedia Ltd.
-\*
-\* This source file is free software, available under the following license:
-\* MIT license - http://datatables.net/license
-\*
-\* This source file is distributed in the hope that it will be useful, but
-\* WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
-\* or FITNESS FOR A PARTICULAR PURPOSE. See the license files for details.
-\*
-\* For details please refer to: http://www.datatables.net
-\*/
+- DataTables 1.12.1 datatables.net/license
+- jQuery JavaScript Library v3.6.0 https://jquery.com/ 
+- jQuery UI - v1.13.2 - 2022-07-17 http://jqueryui.com
+- Materialize v1.0.0 (http://materializecss.com)
+- pace.js v1.2.4 https://github.com/CodeByZach/pace/
+- Panzoom.js https://github.com/timmywil/panzoom/blob/main/MIT-License.txt
+- jsPlumb.js https://docs.jsplumbtoolkit.com/community
 
-/\*!
-\* jQuery JavaScript Library v3.6.0
-\* https://jquery.com/
-\*
-\* Includes Sizzle.js
-\* https://sizzlejs.com/
-\*
-\* Copyright OpenJS Foundation and other contributors
-\* Released under the MIT license
-\* https://jquery.org/license
-\*
-\* Date: 2021-03-02T17:08Z
-\*/
-
-/\*! jQuery UI - v1.13.2 - 2022-07-17
-\* http://jqueryui.com
-\* Includes: widget.js, data.js, disable-selection.js, scroll-parent.js, widgets/draggable.js, widgets/resizable.js, widgets/mouse.js
-\* Copyright jQuery Foundation and other contributors; Licensed MIT
-\*/
-
-/\*!
-\* Materialize v1.0.0 (http://materializecss.com)
-\* Copyright 2014-2017 Materialize
-\* MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
-\*/
-
-/\*!
-\* pace.js v1.2.4
-\* https://github.com/CodeByZach/pace/
-\* Licensed MIT © HubSpot, Inc.
-\*/
-
-/\*\*
-\* Panzoom for panning and zooming elements using CSS transforms
-\* Copyright Timmy Willison and other contributors
-\* https://github.com/timmywil/panzoom/blob/main/MIT-License.txt
-\*/
-
-/\*\*
-\* jsBezier
-\*
-\* Copyright (c) 2010 - 2017 jsPlumb (hello@jsplumbtoolkit.com)
-\*
-\* licensed under the MIT license.
-\* https://docs.jsplumbtoolkit.com/community
-\*/
